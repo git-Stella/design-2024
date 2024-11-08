@@ -1,11 +1,9 @@
 ---
 Title: Home
-Description: This is our index page.
+Description: This is Stella´s index page.
 ---
 
 Stella´s portfolio
 ==========================
 
-The source for this page is in `content/index.md`.
-
-This is a sample home page written in markdown with some frontmatter defined.
+Mitt namn är Stella Karlsson och jag pluggar på BTH i Karlskrona. Jag har tidigare avslutat studier om digital ljudproduktion på BTH. Mina stora intressen har mest med media att göra. Spel, film, serietidningar och så vidare. Jag tecknar en del på fritiden och hoppas kunna programmera mina egna spel.

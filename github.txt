@@ -1,2 +1,1 @@
-placeholder lorum ipsum today is a pretty bad day
 https://github.com/git-Stella/design-2024 

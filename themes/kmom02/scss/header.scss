@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(242, 188, 188);
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+.logo {
+  width: 50px;
+  max-width: 100%;
+  display: block;
+
+  img,
+  embed,
+  object,
+  video {
+    max-width: 100%;
+  }
+}
+
+.nav {
+  width: 200px;
+  max-width: 100%;
+  font-size: 1rem;
+
+  text {
+    max-width: 100%;
+  }
+}
+
+
+

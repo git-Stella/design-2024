@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(242, 188, 188);
+  color: #fff;
+
+  .social {
+    text-decoration: none;
+    font-size: 3rem;
+  }
+}
+

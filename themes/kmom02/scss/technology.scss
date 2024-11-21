@@ -1,0 +1,120 @@
+.landing-page {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1.96rem;
+  margin-bottom: 1.96rem;
+}
+
+.landing-page h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 1.96rem;
+}
+
+.css {
+  grid-column: 1 / span 2;
+  background-color: #e11717;
+}
+
+.html {
+  grid-column: 3 / span 1;
+  background-color: #1b38a1;
+}
+
+.git {
+  grid-column: 1 / span 1;
+  background-color: #e1c929;
+}
+
+.javascript {
+  grid-column: 2 / span 2;
+  background-color: #a62395;
+}
+
+.php {
+  grid-column: 1 / span 3;
+  background-color: #5ac51d;
+}
+
+.python {
+  grid-column: 1 / span 2;
+  background-color: #ba4b1b;
+}
+
+.sqlite {
+  grid-column: 3 / span 1;
+  background-color: #6f19bb;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .css {
+    grid-column: span 3;
+    background-color: #e11717;
+  }
+
+  .html {
+    grid-column: span 3;
+    background-color: #1b38a1;
+  }
+    
+  .git {
+    grid-column: span 3;
+    background-color: #e1c929;
+  }
+    
+  .javascript {
+    grid-column: span 3;
+    background-color: #a62395;
+  }
+    
+  .php {
+    grid-column: span 3;
+    background-color: #5ac51d;
+  }
+    
+  .python {
+    grid-column: span 3;
+    background-color: #ba4b1b;
+  }
+    
+  .sqlite {
+    grid-column: span 3;
+    background-color: #6f19bb;
+  }
+    
+}
+
+.box:hover {
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.technology {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1.96rem;
+  margin-bottom: 1.96rem;
+}
+
+.technology .article {
+  width: 100%;
+}
+
+.technology .menu {
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .technology .article {
+    width: 90%;
+    grid-column: 1 / span 2;
+  }
+
+  .technology .menu {
+    display: none;
+  }
+}

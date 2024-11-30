@@ -6118,7 +6118,7 @@ readers do not read off random characters that represent icons */
 .open-sans-name {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  color: #24203b;
+  color: #0696fc;
 }
 
 p {
@@ -6141,7 +6141,7 @@ body {
   width: 100%;
   max-width: 64rem;
   padding: 0.5rem;
-  background-color: #8879e0;
+  background-color: #2b2f33;
   margin: 0 auto;
 }
 
@@ -6151,7 +6151,7 @@ body {
   padding: 0.5rem;
   justify-content: space-between;
   align-items: center;
-  background-color: #cb79e0;
+  background-color: #185e91;
 }
 
 .site-header {
@@ -6187,7 +6187,7 @@ body {
   padding: 0.5rem;
   justify-content: space-between;
   align-items: center;
-  background-color: #cb79e0;
+  background-color: #185e91;
   color: #fff;
 }
 .footer .social {
@@ -6663,10 +6663,9 @@ h6 {
 }
 
 body {
-  background-color: #a878e0;
-  color: #24203b;
+  background-color: #34424d;
 }
 
 * {
-  color: #24203b;
+  color: #0696fc;
 }

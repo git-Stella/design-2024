@@ -1,0 +1,29 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="landing-page">
+            {{ content }}
+            {% for image in meta.images %}
+                <a class="imageBox" href="image/{{ image.class }}">
+                <picture class="{{ image.class }}">
+                    <source media="(min-width: 668px)" srcset="image/{{ image.class }}?h=300&w=300&crop-to-fit&q=40&nc">
+                    <source media="(min-width: 376px)" srcset="image/{{ image.class }}?h=400&w=400&crop-to-fit&q=35&nc">
+                    <img src="image/{{ image.class }}" class="max-width" alt={{ image.name }}>
+                </picture>
+                </a>
+            {% endfor %}
+        </div>
+        <div class="embed-container">
+            <source media="(min-width: 668px)" srcset="https://www.youtube.com/embed/H1aw6bihW9c?si=SDAgX61iWnrbEEjc?w=1200&crop-to-fit">
+            <source media="(min-width: 376px)" srcset="https://www.youtube.com/embed/H1aw6bihW9c?si=SDAgX61iWnrbEEjc?w=450&crop-to-fit">
+            <iframe src="https://www.youtube.com/embed/H1aw6bihW9c?si=SDAgX61iWnrbEEjc" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

@@ -1,8 +1,14 @@
 .landing-page {
   display: grid;
-  grid-template-columns: auto auto auto;
+  //grid-template-columns: auto auto auto;
   gap: 1.96rem;
   margin-bottom: 1.96rem;
+  width: 100%;
+}
+
+
+.imageBox {
+  grid-column: span 1;
 }
 
 .landing-page h1 {
@@ -13,6 +19,7 @@
 .box {
   border: 1px solid #ccc;
   padding: 1.96rem;
+  box-sizing: border-box;
 }
 
 .css {
@@ -51,39 +58,48 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 668px) {
+  .landing-page h1 {
+    grid-column: span 1;
+    justify-self: center;
+  }
+  .imageBox {
+    //max-width: 100%;
+    grid-column: span 1;
+  }
+
   .css {
-    grid-column: span 3;
+    grid-column: 1 / span 3;
     background-color: #e11717;
   }
 
   .html {
-    grid-column: span 3;
+    grid-column: 1 / span 3;
     background-color: #1b38a1;
   }
     
   .git {
-    grid-column: span 3;
+    grid-column: 1 / span 3;
     background-color: #e1c929;
   }
     
   .javascript {
-    grid-column: span 3;
+    grid-column: 1 / span 3;
     background-color: #a62395;
   }
     
   .php {
-    grid-column: span 3;
+    grid-column: 1 / span 3;
     background-color: #5ac51d;
   }
     
   .python {
-    grid-column: span 3;
+    grid-column: 1 / span 3;
     background-color: #ba4b1b;
   }
     
   .sqlite {
-    grid-column: span 3;
+    grid-column: 1 / span 3;
     background-color: #6f19bb;
   }
     
